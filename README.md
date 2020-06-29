@@ -1,4 +1,4 @@
-# Project Name
+# Bubble Sort
 
 > One paragraph statement about the project.
 
