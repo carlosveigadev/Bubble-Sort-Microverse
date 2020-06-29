@@ -1,5 +1,5 @@
 def bubble_sort(arr)
-  arr.each { |i|
+  arr.each {
     (arr.length - 1).times do |index|
       if arr[index] > arr[index + 1]
         arr[index], arr[index + 1] = arr[index + 1], arr[index]
@@ -9,7 +9,7 @@ def bubble_sort(arr)
 end
 
 def bubble_sort_by(str_arr)
-  str_arr.each { |i|
+  str_arr.each {
     (str_arr.length - 1).times do |index|
       res = yield str_arr[index], str_arr[index + 1]
       if res > 0
@@ -25,9 +25,9 @@ result = bubble_sort_by(%w[hi i hello hey kazakhstan banana orange apple mango])
   left.length - right.length
 end
 
-print result
+puts result
 
-# p bubble_sort([5, 3, 5, 6, 7, 2, 0])
+puts bubble_sort([5, 3, 5, 6, 7, 2, 0])
 
 
 
