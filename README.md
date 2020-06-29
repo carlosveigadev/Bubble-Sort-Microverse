@@ -1,57 +1,34 @@
 # Bubble Sort
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> In this project, the you will implement the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://repl.it/@aliabdulaziz/Bubble-Sort-Microverse)
 
 
-## Getting Started
+## How to check the algorithm:
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**You can click on the live demo link and run the method with the repl website.**
+**Then use bubble_sort or bubble_sort_by followed by an array and our algorithm will sort out the array by ascending order**
 
 ## Authors
 
-👤 **Author1**
+👤 **Abdulaziz Redi**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@abredi](https://github.com/abredi)
+- Twitter: [@rediabdulaziz](https://twitter.com/rediabdulaziz)
+- Linkedin: [abdulaziz](https://www.linkedin.com/in/abdulaziz-ali-98948011a)
 
-👤 **Author2**
+👤 **Carlos Veiga**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@wrakc](https://github.com/wrakc)
+- Twitter: [@carlosveig](https://twitter.com/carlosveig)
+- Linkedin: [chveiga](https://linkedin.com/chveiga)
 
 ## 🤝 Contributing
 
@@ -65,9 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks Microverse.
 
 ## 📝 License
 
