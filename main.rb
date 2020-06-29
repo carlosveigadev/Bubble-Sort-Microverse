@@ -10,7 +10,7 @@ def bubble_sort_by(str_arr)
   str_arr.each do
     (str_arr.length - 1).times do |index|
       res = yield str_arr[index], str_arr[index + 1]
-      str_arr[index], str_arr[index + 1] = str_arr[index + 1], str_arr[index] if res > 0
+      str_arr[index], str_arr[index + 1] = str_arr[index + 1], str_arr[index] if res.positive?
     end
   end
   str_arr
@@ -22,6 +22,6 @@ result = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
 
-puts ""
+puts ''
 
 print result
