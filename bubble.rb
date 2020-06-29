@@ -1,12 +1,12 @@
 def bubble_sort(arr)
-    for i in arr do
+    for i in (arr.length - 1).times do
         arr.each_with_index do |item, index|
+            p index
+
             if arr[index] > arr[i]
-                
-                p arr[i]
                 arr[i], arr[index] = arr[index], arr[i]
             else
-                
+                p arr
                 break
             end           
         end
@@ -14,8 +14,8 @@ def bubble_sort(arr)
     
 end
 
-    # arr.each do |item|
-    #     if item[i] > item[i +1]
+    # while change = true do
+    #     n.times {}
     #         item[i], item[i +1] = item[i +1], item[i]
     #         change = true
     # end   
@@ -27,4 +27,6 @@ end
     # end
 
 
-bubble_sort([2, 3, 1])
+print bubble_sort([2, 3, 1])
+
+
