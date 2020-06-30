@@ -1,17 +1,27 @@
 def bubble_sort(arr)
   arr.each do
+    swapped = false
     (arr.length - 1).times do |index|
-      arr[index], arr[index + 1] = arr[index + 1], arr[index] if arr[index] > arr[index + 1]
+      if arr[index] > arr[index + 1]
+        arr[index], arr[index + 1] = arr[index + 1], arr[index]
+        swapped = true
+      end
     end
+    break unless swapped
   end
+  arr
 end
 
 def bubble_sort_by(str_arr)
   str_arr.each do
+    swapped = false
     (str_arr.length - 1).times do |index|
-      res = yield str_arr[index], str_arr[index + 1]
-      str_arr[index], str_arr[index + 1] = str_arr[index + 1], str_arr[index] if res.positive?
+      if (yield str_arr[index], str_arr[index + 1]).positive?
+        str_arr[index], str_arr[index + 1] = str_arr[index + 1], str_arr[index]
+        swapped = true
+      end
     end
+    break unless swapped
   end
   str_arr
 end
@@ -25,3 +35,4 @@ end
 puts ''
 
 print result
+
