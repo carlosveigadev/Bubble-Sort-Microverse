@@ -26,13 +26,12 @@ def bubble_sort_by(str_arr)
   str_arr
 end
 
-# print bubble_sort([5, 3, 5, 6, 7, 2, 0])
+print bubble_sort([5, 3, 5, 6, 7, 2, 0])
 
 result = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
 
-# puts ''
+puts ''
 
-# print result
-
+print result
