@@ -1,1 +1,4 @@
-.idea/
+.idea
+.history
+
+.DS_Store
