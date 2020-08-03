@@ -1,3 +1,4 @@
+# @author Abdulaziz Ali
 require '../main'
 
 describe '#bubble_sort should return sorted integer and string array' do
@@ -10,5 +11,5 @@ describe '#bubble_sort should return sorted integer and string array' do
       left.length - right.length
     end
     expect(result).to eql(%w[hi hey hello])
-  end
+  end 
 end
