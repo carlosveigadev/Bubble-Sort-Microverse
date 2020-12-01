@@ -1,6 +1,6 @@
 # Bubble Sort
 
-> In this project, the you will implement the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
+> In this project, it is implemented the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
 
 ## Built With
 
