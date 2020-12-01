@@ -2,7 +2,7 @@
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
  [![Run on Repl.it](https://repl.it/badge/github/wrakc/Bubble-Sort---Microverse)](https://repl.it/@aliabdulaziz/Bubble-Sort-Microverse) 
 
-> In this project, the you will implement the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
+> In this project, it is implemented the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
 
 ## Built With
 
