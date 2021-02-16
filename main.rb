@@ -1,3 +1,4 @@
+# @author Abdulaziz Ali
 def bubble_sort(arr)
   arr.each do
     swapped = false
